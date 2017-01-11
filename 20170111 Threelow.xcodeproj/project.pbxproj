@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8987B62E1E26AEDB00EAF01F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8987B62D1E26AEDB00EAF01F /* main.m */; };
+		8987B6491E26B17C00EAF01F /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8987B6481E26B17C00EAF01F /* Dice.m */; };
+		8987B64C1E26B24200EAF01F /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8987B64B1E26B24200EAF01F /* InputHandler.m */; };
+		8987B64F1E26B71200EAF01F /* DiceMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8987B64E1E26B71200EAF01F /* DiceMaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		8987B62A1E26AEDB00EAF01F /* 20170111 Threelow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "20170111 Threelow"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8987B62D1E26AEDB00EAF01F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8987B6471E26B17C00EAF01F /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		8987B6481E26B17C00EAF01F /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
+		8987B64A1E26B24200EAF01F /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		8987B64B1E26B24200EAF01F /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		8987B64D1E26B71200EAF01F /* DiceMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceMaker.h; sourceTree = "<group>"; };
+		8987B64E1E26B71200EAF01F /* DiceMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				8987B62D1E26AEDB00EAF01F /* main.m */,
+				8987B6471E26B17C00EAF01F /* Dice.h */,
+				8987B6481E26B17C00EAF01F /* Dice.m */,
+				8987B64A1E26B24200EAF01F /* InputHandler.h */,
+				8987B64B1E26B24200EAF01F /* InputHandler.m */,
+				8987B64D1E26B71200EAF01F /* DiceMaker.h */,
+				8987B64E1E26B71200EAF01F /* DiceMaker.m */,
 			);
 			path = "20170111 Threelow";
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8987B6491E26B17C00EAF01F /* Dice.m in Sources */,
+				8987B64C1E26B24200EAF01F /* InputHandler.m in Sources */,
 				8987B62E1E26AEDB00EAF01F /* main.m in Sources */,
+				8987B64F1E26B71200EAF01F /* DiceMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +264,7 @@
 				8987B6331E26AEDB00EAF01F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
