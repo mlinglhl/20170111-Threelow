@@ -21,7 +21,9 @@
 }
 
 - (void) rollDie {
-    self.value = arc4random_uniform(6)+1;
+    if (self.held == NO) {
+        self.value = arc4random_uniform(6)+1;
+    }
 }
 
 - (NSString *) displayDie {

@@ -11,7 +11,7 @@
 
 @implementation DiceMaker
 
-- (NSMutableArray *) makeDice: (NSInteger) diceCount {
+- (NSArray *) makeDice: (NSInteger) diceCount {
     NSMutableArray *diceMaker = [[NSMutableArray alloc] init];
     for (int i = 0; i < diceCount; i++) {
         diceMaker[i] = [[Dice alloc] init];

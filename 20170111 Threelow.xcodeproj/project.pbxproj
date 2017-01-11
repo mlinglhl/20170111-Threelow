@@ -11,6 +11,7 @@
 		8987B6491E26B17C00EAF01F /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8987B6481E26B17C00EAF01F /* Dice.m */; };
 		8987B64C1E26B24200EAF01F /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8987B64B1E26B24200EAF01F /* InputHandler.m */; };
 		8987B64F1E26B71200EAF01F /* DiceMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8987B64E1E26B71200EAF01F /* DiceMaker.m */; };
+		8987B6521E26F3A000EAF01F /* RuleChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8987B6511E26F3A000EAF01F /* RuleChecker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		8987B64B1E26B24200EAF01F /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
 		8987B64D1E26B71200EAF01F /* DiceMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceMaker.h; sourceTree = "<group>"; };
 		8987B64E1E26B71200EAF01F /* DiceMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceMaker.m; sourceTree = "<group>"; };
+		8987B6501E26F3A000EAF01F /* RuleChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleChecker.h; sourceTree = "<group>"; };
+		8987B6511E26F3A000EAF01F /* RuleChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuleChecker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				8987B62D1E26AEDB00EAF01F /* main.m */,
+				8987B6501E26F3A000EAF01F /* RuleChecker.h */,
+				8987B6511E26F3A000EAF01F /* RuleChecker.m */,
 				8987B6471E26B17C00EAF01F /* Dice.h */,
 				8987B6481E26B17C00EAF01F /* Dice.m */,
 				8987B64A1E26B24200EAF01F /* InputHandler.h */,
@@ -134,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8987B6521E26F3A000EAF01F /* RuleChecker.m in Sources */,
 				8987B6491E26B17C00EAF01F /* Dice.m in Sources */,
 				8987B64C1E26B24200EAF01F /* InputHandler.m in Sources */,
 				8987B62E1E26AEDB00EAF01F /* main.m in Sources */,
